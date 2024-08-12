@@ -1,0 +1,23 @@
+{
+    "manifest_version": 3,
+    "name": "SnapPulse",
+    "version": "1.1",
+    "description": "Transform your images instantly with SnapPulse - the sleek, powerful, and user-friendly photo editor right in your browser!",
+    "action": {
+      "default_popup": "index.html",
+      "default_icon": {
+        "16": "icon16.png",
+        "48": "icon48.png",
+        "128": "icon128.png"
+        
+      }
+    },
+    "permissions": [
+      "storage"
+    ],
+    "icons": {
+      "16": "icon16.png",
+      "48": "icon48.png",
+      "128": "icon128.png"
+    }
+  }

@@ -1,0 +1,249 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  width: 780px;
+  height: 600px;
+  background: url(/bg.jpg) no-repeat center center/cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.wrapper {
+  display: flex;
+  height: calc(100% - 60px);
+  gap: 20px;
+}
+
+.editor-panel {
+  width: 280px;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.preview-img {
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.preview-img img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+.controls {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.editor-panel .resize {
+  margin-top: 17px;
+}
+
+.editor-panel .resize .options {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.editor-panel .resize .options .option {
+  width: calc(50% - 8px);
+  margin-bottom: 10px;
+}
+
+.editor-panel .resize .options .option label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.editor-panel .resize .options .option input {
+  width: 100%;
+  height: 32px;
+  padding: 0 8px;
+  border-radius: 3px;
+}
+
+.editor-panel .resize button {
+  width: 100%;
+  margin-top: 10px;
+}
+
+.editor-panel button.active {
+  color: #f0f0f0;
+  border-color: #5372f0;
+  background: #11335d;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  padding: 30px 35px 35px;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+.container.disable .editor-panel,
+.container.disable .controls .reset-filter,
+.container.disable .controls .save-img {
+  opacity: 0.5;
+  pointer-events: none;
+}
+.container h2 {
+  margin-top: -8px;
+  font-size: 22px;
+  font-weight: 500;
+}
+.container .wrapper {
+  display: flex;
+  margin: 10px 0;
+  width: 100%;
+}
+.wrapper .editor-panel {
+  padding: 15px 20px;
+  width: 280px;
+  border-radius: 5px;
+}
+.editor-panel .title {
+  display: block;
+  font-size: 16px;
+  margin-bottom: 12px;
+}
+.editor-panel .options,
+.controls {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.editor-panel button {
+  outline: none;
+  height: 30px;
+  font-size: 14px;
+  color: #11335d;
+  background: #fff;
+  margin-bottom: 8px;
+}
+.editor-panel .filter button {
+  width: calc(100% / 2 - 4px);
+}
+.editor-panel button:hover {
+  background: #11335d6b;
+}
+.filter button.active {
+  color: #fff;
+  border-color: #5372f0;
+  background: #11335d;
+}
+.filter .slider {
+  margin-top: 12px;
+}
+.filter .slider .filter-info {
+  display: flex;
+  color: #464646;
+  font-size: 14px;
+  justify-content: space-between;
+}
+.filter .slider input {
+  width: 100%;
+  height: 5px;
+  accent-color: #11335d;
+}
+.editor-panel .rotate {
+  margin-top: 17px;
+}
+.editor-panel .rotate button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: calc(100% / 4 - 3px);
+}
+.rotate .options button:nth-child(3),
+.rotate .options button:nth-child(4) {
+  font-size: 18px;
+}
+.rotate .options button:active {
+  color: #fff;
+  background: #11335d;
+  border-color: #11335d;
+}
+.wrapper .preview-img {
+  flex-grow: 1;
+  display: flex;
+  overflow: hidden;
+  margin-left: 20px;
+  border-radius: 5px;
+  align-items: center;
+  justify-content: center;
+}
+.preview-img img {
+  max-width: 490px;
+  max-height: 335px;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.controls button {
+  padding: 11px 20px;
+  font-size: 14px;
+  border-radius: 3px;
+  outline: none;
+  color: #fff;
+  cursor: pointer;
+  background: none;
+  transition: all 0.3s ease;
+  text-transform: uppercase;
+}
+
+.controls .remove-img {
+  background: #6c757d;
+  border: 1px solid #6c757d;
+  margin-right: 5px;
+}
+.controls .remove-img:hover {
+  color: #fafafa;
+  background: #11335d;
+}
+.controls .reset-filter {
+  color: #6c757d;
+  border: 1px solid #6c757d;
+  margin-left: 20px;
+}
+.controls .reset-filter:hover {
+  color: #fff;
+  background: #6c757d;
+}
+.controls .choose-img {
+  background: #6c757d;
+  border: 1px solid #6c757d;
+}
+
+.controls .choose-img:hover {
+  color: #fff;
+  background: #11335d;
+}
+
+.controls .save-img {
+  margin-left: 5px;
+  background: #11335d;
+  border: 1px solid #5372f0;
+}
