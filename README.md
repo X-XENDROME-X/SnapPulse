@@ -20,8 +20,9 @@ SnapPulse isn't just another image editor – it's your personal photo laborator
 - **Quality Optimization:** Balancing file size and quality has never been easier. Reduce quality for smaller files without sacrificing too much detail.
 
 ### 💾 Seamless Workflow
-- **Drag & Drop:** Simply drag your image into SnapPulse and start editing. It's that easy!
+- **Quick Upload:** Select your image with a simple click and start editing immediately. It's that easy!
 - **Instant Save:** Your masterpiece is ready? Save it with a single click, right from your browser.
+- **Easy Reset:** Made a mistake? No worries! Reset all filters with one button press.
 
 ## 🛠️ Tech Stack & Skills Showcase
 
