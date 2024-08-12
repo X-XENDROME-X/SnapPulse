@@ -1,7 +1,7 @@
 # 📸 SnapPulse: Your Browser's Photo Studio
 
 <p align="center">
-  <img src="logonb.png" alt="SnapPulse Logo" width="400"/>
+  <img src="snappulse-high-resolution-logo.png" alt="SnapPulse Logo" width="400"/>
 </p>
 
 Transform your images with the power of a professional studio, right in your browser!
