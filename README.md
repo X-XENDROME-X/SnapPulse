@@ -1,4 +1,6 @@
-# 📸 SnapPulse: Your Browser's Photo Studio
+<H1 align="center">
+📸 SnapPulse: Your Browser's Photo Studio
+</H1>
 
 <p align="center">
   <img src="snappulse-high-resolution-logo.png" alt="SnapPulse Logo" width="400"/>
