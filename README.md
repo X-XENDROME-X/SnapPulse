@@ -6,7 +6,9 @@
   <img src="snappulse-high-resolution-logo.png" alt="SnapPulse Logo" width="400"/>
 </p>
 
+<p align="center">
 Transform your images with the power of a professional studio, right in your browser!
+</p>
 
 ## 🌟 What is SnapPulse?
 SnapPulse isn't just another image editor – it's your personal photo laboratory in Chrome! With a sleek interface and powerful features, SnapPulse empowers you to unleash your creativity without ever leaving your browser.
